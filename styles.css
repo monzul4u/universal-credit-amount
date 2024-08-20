@@ -72,8 +72,21 @@ button:hover {
   margin-bottom: 10px;
 }
 
-#netUCAmount {
-  font-size: 24px;
+#results p {
+  font-size: 18px;
   color: #555;
+}
+
+#netUCAmount {
   font-weight: bold;
+  font-size: 20px;
+}
+
+#monzulNetUC {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.underline {
+  text-decoration: underline;
 }
