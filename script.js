@@ -1,5 +1,6 @@
 function calculateNetUC() {
-  const ucAmount = 2350;
+  const ucAmount = 2367.1;
+  const overPayment = 30;
   const monzulEarnings =
     parseFloat(document.getElementById("monzulEarnings").value) || 0;
   const salmaEarnings =
@@ -12,7 +13,7 @@ function calculateNetUC() {
   const homePay = (totalEarnings - 404) * 0.55;
 
   // Calculate net UC amount
-  const netUC = ucAmount - homePay;
+  const netUC = ucAmount - homePay - overPayment;
 
   // Sum of Monzul's earnings and Net UC Amount
   const monzulNetUC = monzulEarnings + netUC;
