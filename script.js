@@ -10,7 +10,7 @@ function calculateNetUC() {
   const totalEarnings = monzulEarnings + salmaEarnings;
 
   // Calculate total home pay
-  const homePay = (totalEarnings - 404) * 0.55;
+  const homePay = (totalEarnings - 411) * 0.55;
 
   // Calculate net UC amount
   const netUC = ucAmount - homePay - overPayment;
